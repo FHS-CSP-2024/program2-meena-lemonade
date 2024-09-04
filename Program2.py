@@ -51,11 +51,17 @@
 
 
 
+
+
+
 ## Problem 1 ##
 #Please write a script that: 
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
 
+name = input ("Hey! What's your name?\n")
 
+print ("Hey "+name+", nice to meet you!")
+print (name+" is a cool name.")
 
 
 
@@ -64,6 +70,10 @@
 # - Asks for the user's name
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
+
+name = input ("Hi, tell me your name!\n")
+print ("!"+name+"!"+name+"!")
+
 
 
 ## Problem 3 ##
@@ -76,10 +86,24 @@
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
 
+name = input ("Hey, sorry, tell me your name again?\n")
+address = input ("And tell me your adress?")
+
+print (name + "\n" + address + ", Folsom CA, 95630")
+
+
+
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
-# - Puts the words together with dashes and prints that out
+# - Puts the words together with dashes and print that out
+
+word1 = input ("Give me a word.\n")
+word2 = input ("Give me another.\n")
+word3 = input ("Give me one more.\n")
+
+print (word1 + "-" + word2 + "-" + word3)
+
 
 
 ## Problem 5 ##
@@ -93,3 +117,10 @@
 #Mary is a valiant knight, born in the year 1572. 
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
 #Only Mary could save the village's residents.
+
+Askforaname = input ("Give me a name\n")
+Askforacity = input ("Give my the name (whether fake or real) of a city\n")
+
+print ("In the city of " + Askforacity + " lived a girl named " + Askforaname + ".")
+print (Askforaname + " decided to uncover the truth about the mystery about the murder " + "\n" +  "that happened five years ago in " + Askforacity + ".")
+print ("So, " + Askforaname + " and her friend found out the truth, yay")
