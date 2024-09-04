@@ -15,8 +15,10 @@
 #name = input("What is your name? ")
 #print("Hi there, " + name)
 #
+#
 # Talk about Variables
 #   * Note python is untyped and loose
+#
 #
 # Reference a Var
 #name = input("What is your name? ")
@@ -25,9 +27,11 @@
 #print("!")
 #print(name + " is quite a nice name.")
 #
+#
 # Concat w/ +
 #name = input("What is your name? ")
 #print("Hi " + name + "! Let me make sure: your name is " + name + "?")
+#
 #
 # Multiple Input
 #name = input("What is your name? ")
@@ -37,6 +41,7 @@
 #print("Your name: " + name)
 #print("Your email address: " + email)
 #print("Your nickname: " + nickname)
+#
 #
 # Overriding Input
 #name = input("What is your name? ")
